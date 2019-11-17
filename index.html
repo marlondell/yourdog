@@ -1,0 +1,74 @@
+<!doctype html>
+<!-- Proposta de Página -->
+<html lang="pt-br">
+    <head>
+        <title> Busque seu Pet </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Marlon">
+        <meta name="description" content="Conheça o seu Pet">
+        <meta name="keywords" content="Pet, raça, comportamento, cuidado">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+  
+    <body>
+        <header class="header-top">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <div id="msgSave"><p>Dog Salvo</p></div>
+            </nav>
+        </header>
+        <main class="flexbox">
+            
+            <section id="content">
+                <h1>Escolha seu Pet</h1>
+                <select id="selectBreeds" >
+                    <option class="listBreed">Raça</option>
+                </select>   
+                <input type="text" name="name" id="name" placeholder="Nome do Pet" maxlength="10">
+                
+                <div id="colorMenu" class="menuParameter">
+                    <div class="listColor" id="color1"></div>
+                    <div class="listColor" id="color2"></div>
+                    <div class="listColor" id="color3"></div>
+                    <div class="listColor" id="color4"></div>
+                    <div class="listColor" id="color5"></div>
+                        
+                </div>  
+                <div id="fontMenu" class="menuParameter">
+
+                    <div class="listFont" id="font1">F o n t e</div>
+                    <div class="listFont" id="font2">Exemplo</div>
+                    <div class="listFont" id="font3">Exemplo</div>
+                    <div class="listFont" id="font4">Exemplo</div>
+                    <div class="listFont" id="font5">Exemplo</div>
+                        
+                   </div>
+                
+            </section>
+             
+            <section id="mount">
+                <div id="centerImageMount">
+                    <div id="imageMount">
+                        <p id="dogName"></p>
+                    </div>
+                    <span id="timeSaved"></span>
+                </div>
+                <button id="replaceImage">Trocar Imagem</button>
+                <button id="save">Salvar</button>
+            </section>
+                 
+            <section id="gallery"></section>
+        </main>
+          
+        <footer class="rodape">
+            Copyright &copy; yourdog
+        </footer>
+            
+    <script src="./js/dog.js"></script>        
+ 
+    </body>
+</html>
